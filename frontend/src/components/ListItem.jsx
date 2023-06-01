@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 const ListItem = ({ note }) => {
   return (
-    <div>
-      <div className= "font-mono ">
+
         <Link to = {`/note/${note.id}`}>
+          <div className="notes-list-item">
       <h3> {note.body} </h3>
-      </Link>
       </div>
-    </div>
+      </Link>
+    
   )
 }
 
