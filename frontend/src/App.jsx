@@ -8,7 +8,7 @@ function App() {
   
 
   return ( 
-    <div className="w-screen container dark">
+    <div className="">
 
       <div className="app">
     <Router>
