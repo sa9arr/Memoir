@@ -26,6 +26,9 @@
 }
 
 /* BASE STYLES */
+.date-time{
+  --color-text: ;
+}
 
 
 *{
