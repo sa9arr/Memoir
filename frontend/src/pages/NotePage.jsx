@@ -87,8 +87,12 @@ navigate('/')
 
   return (
     <div className="note">
-      <div className="note-header">
+      <div className="">
+        <div className="back-icon">
         <FontAwesomeIcon icon={faArrowLeft} onClick={handleSubmit} />
+        </div>
+
+        <div className="buttons-d">
 
         {id !=='new' ? (
           <button onClick={deleteNote}>Delete</button>
@@ -96,12 +100,12 @@ navigate('/')
         ) : (
           <button onClick = {handleSubmit} >Done</button>
         )}
-        
+       </div> 
       </div>
       <div>
 
       <textarea value={note?.body} onChange={handleChange}></textarea>
-      <AddButton></AddButton>
+     
       </div>
      
 

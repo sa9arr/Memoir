@@ -3,7 +3,7 @@
 
 
 :root {
-  --color-main: #f68657;
+  --color-main: #11afa7;
   --color-text: #383a3f;
   --color-dark: #1f2124;
   --color-gray: #677;
@@ -15,7 +15,7 @@
 }
 
 .dark {
-  --color-main: #f68657;
+  --color-main: #dfd1cb;
   --color-text: #d6d1d1;
   --color-dark: #f5f6f7;
   --color-gray: #999;
@@ -109,6 +109,24 @@ a {
 
 
 /* NOTES STYLES */
+/*  */
+/* customized */
+.buttons-d{
+  
+  margin-left: 25rem;
+  font-size: 24px;
+  width: 0px;
+  color: var(--color-main);
+  margin-top: -2rem;
+  
+}
+
+.back-icon{
+  margin-left: -14rem;
+  color: var(--color-main);
+  font-size: 24px;
+  margin-top: 2rem;
+}
 
 .notes-header {
   display: flex;
@@ -121,11 +139,12 @@ a {
   color: var(--color-main);
   font-size: 24px;
   font-weight: 600;
-  margin-right: rem;
+  margin-left: -10rem;
 }
 
 
 .notes-count {
+  margin-left: 3rem;
   font-size: 24px;
  
 
